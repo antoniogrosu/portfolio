@@ -6,9 +6,12 @@ function Card(props) {
   return (
     <div>
       <div
+        onClick={() => {
+          setShown(!shown);
+        }}
         className={`${
           shown ? "rounded-t-md" : "rounded-md"
-        }  bg-gray-700 px-4 py-2 font flex items-center justify-between`}
+        }  bg-gray-700 px-4 py-2 font flex items-center justify-between cursor-pointer`}
       >
         <p className="bg-fuchsia-600 p-2 rounded-2xl font-semibold">
           {props.short}
@@ -22,9 +25,6 @@ function Card(props) {
           width={18}
           height={10}
           alt="Dropdown icon"
-          onClick={() => {
-            setShown(!shown);
-          }}
         ></Image>
         <Image
           className={`md:hidden cursor-pointer  ${shown ? "rotate-45" : ""} `}
@@ -32,9 +32,6 @@ function Card(props) {
           width={15}
           height={8}
           alt="Dropdown icon"
-          onClick={() => {
-            setShown(!shown);
-          }}
         ></Image>
       </div>
       {shown && (

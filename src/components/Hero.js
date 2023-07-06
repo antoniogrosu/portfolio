@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import Link from "next/link";
 function Hero() {
   return (
     <div className="flex items-center justify-between pt-24 pb-24">
@@ -21,7 +21,7 @@ function Hero() {
         </p>
         <div className="md:hidden mt-8 flex md:flex-col w-full items-center justify-between ">
           <button className="md:mt-16 md:block text-gray-950 font-semibold rounded-md px-4 py-2 bg-gradient-to-r from-green-200 to-fuchsia-400">
-            Explore My Work
+            <Link href={"/work"}>Explore My Work</Link>
           </button>
           <div className="cursor-pointer md:mt-4 bg-gradient-to-b rounded-md from-green-200 to-green-200/0 p-1 w-fit">
             <div className="w-full bg-gray-950 rounded-sm px-3 py-1">
@@ -30,7 +30,7 @@ function Hero() {
           </div>
         </div>
         <button className="hidden mt-16 md:block text-gray-950 font-semibold rounded-md px-4 py-2 bg-gradient-to-r from-green-200 to-fuchsia-400">
-          Explore My Work
+          <Link href={"/work"}>Explore My Work</Link>
         </button>
         <div className="hidden md:block cursor-pointer mt-4 bg-gradient-to-b rounded-md from-green-200 to-green-200/0 p-1 w-fit">
           <div className="w-full bg-gray-950 rounded-sm px-3 py-1">

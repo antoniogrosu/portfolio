@@ -25,9 +25,6 @@ function Collab() {
       <button className="border-r-8 border-2 border-gray-950  mt-8 md:mt-16 mr-8 text-gray-950 font-semibold rounded-full px-4 py-2 bg-gradient-to-r from-green-200 to-fuchsia-400">
         Send an Email
       </button>
-      <button className="border-2 border-gray-50  mt-16  text-gray-50 font-semibold rounded-full px-4 py-2 bg-trasnparent">
-        See my work
-      </button>
     </div>
   );
 }
