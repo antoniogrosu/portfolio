@@ -22,7 +22,7 @@ function Work() {
         />
         <Project
           name="TheVokabulary Dictionary"
-          src={"/logo2.svg"}
+          src={"/logo2.png"}
           text="Introducing my online dictionary project! With a sleek and user-friendly interface, it offers fast and accurate word meanings, synonyms, and related information. Say goodbye to tedious searches and welcome instant language assistance. It's a valuable addition to my portfolio, showcasing my ability to create useful and efficient applications."
           url="https://thevokabulary.vercel.app/"
           repo="https://github.com/antoniogrosu/thevokabulary"
