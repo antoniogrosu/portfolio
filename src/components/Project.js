@@ -8,6 +8,7 @@ function Project(props) {
       <div className="flex md:flex-row flex-col items-start justify-between font">
         <div className="w-full md:w-4/12">
           <Image
+            priority
             src={props.src}
             alt={"Business Logo"}
             width={480}
@@ -39,7 +40,13 @@ function Project(props) {
             {props.logos.map((item) => {
               return (
                 <div className="w-4/12 md:w-2/12">
-                  <Image src={item} alt="logo" width={120} height={120} />
+                  <Image
+                    src={item}
+                    alt="logo"
+                    width={120}
+                    height={120}
+                    priority
+                  />
                 </div>
               );
             })}
