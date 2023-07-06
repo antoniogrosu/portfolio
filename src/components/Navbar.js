@@ -6,7 +6,7 @@ function Navbar() {
       <h1 className="font-bold">
         <Link href="/">antoniogrosu.dev</Link>
       </h1>
-      <div className="flex items-center justify-between w-1/3 md:w-1/4 ">
+      <div className="flex items-center justify-between w-1/3 md:w-2/12 ">
         <p>
           {" "}
           <Link href="/work">my work</Link>

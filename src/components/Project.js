@@ -37,7 +37,11 @@ function Project(props) {
           <h3 className="text-gray-50/50 tracking-widest text-xl">TECHSTACK</h3>
           <div className="flex items-center justify-start gap-6 mt-4">
             {props.logos.map((item) => {
-              return <Image src={item} alt="logo" width={60} height={60} />;
+              return (
+                <div className="w-4/12 md:w-2/12">
+                  <Image src={item} alt="logo" width={120} height={120} />
+                </div>
+              );
             })}
           </div>
         </div>
