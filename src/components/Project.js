@@ -14,8 +14,8 @@ function Project(props) {
             priority
             src={props.src}
             alt={"Business Logo"}
-            width={960}
-            height={960}
+            width={320}
+            height={320}
             className="object-cover"
           />
         </div>
@@ -46,8 +46,8 @@ function Project(props) {
                   <Image
                     src={item}
                     alt="logo"
-                    width={240}
-                    height={240}
+                    width={60}
+                    height={60}
                     priority
                   />
                 </div>

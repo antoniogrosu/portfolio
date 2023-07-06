@@ -8,7 +8,7 @@ function Work() {
         <Description />
 
         <Project
-          name="Teen Psycholgy Blog"
+          name="Teen Psychology Blog"
           src={"/logo1.svg"}
           text="Through the creation of a captivating blog for a psychologist, I implemented strategic solutions that had an impactuous effect on the business. By crafting compelling content, optimizing for search engines, and integrating user-friendly features, the blog became a powerful tool for attracting new clients, establishing expertise, and fostering meaningful connections. Growth was evident as the business expanded its reach and experienced increased engagement and conversions."
           url="https://teen-psychology.vercel.app"

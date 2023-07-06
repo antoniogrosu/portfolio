@@ -8,22 +8,22 @@ function Description() {
           <Image
             src="/react.svg"
             alt="React.js Logo"
-            width={240}
-            height={240}
+            width={480}
+            height={480}
           />
           <Image src="/next.svg" alt="Next.js Logo" width={240} height={240} />
           <Image
             src="/firebase.svg"
             alt="Firebase Logo"
-            width={240}
-            height={240}
+            width={480}
+            height={480}
           />
 
           <Image
             src="/tailwind.svg"
             alt="Tailwind Logo"
-            width={120}
-            height={120}
+            width={480}
+            height={480}
           />
         </div>
         <p className="mt-8">
@@ -42,20 +42,20 @@ function Description() {
         </p>
       </div>
       <div className="hidden md:grid grid-cols-2 gap-4 md:w-5/12">
-        <Image src="/react.svg" alt="React.js Logo" width={120} height={120} />
-        <Image src="/next.svg" alt="Next.js Logo" width={120} height={120} />
+        <Image src="/react.svg" alt="React.js Logo" width={480} height={480} />
+        <Image src="/next.svg" alt="Next.js Logo" width={480} height={480} />
         <Image
           src="/firebase.svg"
           alt="Firebase Logo"
-          width={120}
-          height={120}
+          width={480}
+          height={480}
         />
 
         <Image
           src="/tailwind.svg"
           alt="Tailwind Logo"
-          width={120}
-          height={120}
+          width={480}
+          height={480}
         />
       </div>
     </div>
