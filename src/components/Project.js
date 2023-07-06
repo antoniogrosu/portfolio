@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 function Project(props) {
+  function generateId() {
+    return Math.random().toString(36).substr(2, 9);
+  }
   return (
     <div className="py-24">
       <h1 className="text-4xl font mb-14">{props.name}</h1>
@@ -39,7 +42,7 @@ function Project(props) {
           <div className="flex items-center justify-start gap-6 mt-4">
             {props.logos.map((item) => {
               return (
-                <div className="w-4/12 md:w-2/12">
+                <div className="w-2/12" key={generateId()}>
                   <Image
                     src={item}
                     alt="logo"
@@ -58,7 +61,7 @@ function Project(props) {
           </h3>
           <div className="flex flex-col items-start mt-4 gap-1 justify-between">
             {props.features.map((item) => {
-              return <p>{item}</p>;
+              return <p key={generateId()}>{item}</p>;
             })}
           </div>
         </div>

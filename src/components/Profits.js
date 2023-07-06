@@ -7,6 +7,7 @@ function Profits() {
         profits?
       </h1>
       <Image
+        priority
         className="md:hidden block mt-16"
         src="/biz-img.svg"
         width={650}
@@ -28,6 +29,7 @@ function Profits() {
           </p>
         </div>
         <Image
+          priority
           className="hidden md:block"
           src="/biz-img.svg"
           width={450}

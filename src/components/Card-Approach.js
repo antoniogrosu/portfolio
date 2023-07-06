@@ -2,7 +2,6 @@ import Image from "next/image";
 import { useState } from "react";
 function Card(props) {
   const [shown, setShown] = useState(false);
-  console.log(shown);
   return (
     <div>
       <div

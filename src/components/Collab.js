@@ -1,3 +1,4 @@
+import Link from "next/link";
 function Collab() {
   return (
     <div className="px-8 py-24 md:p-24 font bg-gray-800">
@@ -23,7 +24,12 @@ function Collab() {
         </p>
       </div>
       <button className="border-r-8 border-2 border-gray-950  mt-8 md:mt-16 mr-8 text-gray-950 font-semibold rounded-full px-4 py-2 bg-gradient-to-r from-green-200 to-fuchsia-400">
-        Send an Email
+        <Link
+          className="p-1"
+          href="mailto:your-email@example.com?subject=Collaboration&body=I%20would%20like%20to%20work%20with%20you.%20Could%20we%20schedule%20a%20call%3F"
+        >
+          Send an email{" "}
+        </Link>
       </button>
     </div>
   );

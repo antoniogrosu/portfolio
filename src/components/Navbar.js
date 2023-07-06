@@ -11,7 +11,12 @@ function Navbar() {
           {" "}
           <Link href="/work">my work</Link>
         </p>
-        <p>collab</p>
+        <Link
+          className="p-1"
+          href="mailto:your-email@example.com?subject=Collaboration&body=I%20would%20like%20to%20work%20with%20you.%20Could%20we%20schedule%20a%20call%3F"
+        >
+          collab{" "}
+        </Link>{" "}
       </div>
     </nav>
   );

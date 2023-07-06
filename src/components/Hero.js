@@ -25,7 +25,12 @@ function Hero() {
           </button>
           <div className="cursor-pointer md:mt-4 bg-gradient-to-b rounded-md from-green-200 to-green-200/0 p-1 w-fit">
             <div className="w-full bg-gray-950 rounded-sm px-3 py-1">
-              <p className="text-md">Let's Collaborate</p>
+              <Link
+                className="p-1"
+                href="mailto:your-email@example.com?subject=Collaboration&body=I%20would%20like%20to%20work%20with%20you.%20Could%20we%20schedule%20a%20call%3F"
+              >
+                Let's collaborate
+              </Link>
             </div>
           </div>
         </div>
@@ -34,7 +39,12 @@ function Hero() {
         </button>
         <div className="hidden md:block cursor-pointer mt-4 bg-gradient-to-b rounded-md from-green-200 to-green-200/0 p-1 w-fit">
           <div className="w-full bg-gray-950 rounded-sm px-3 py-1">
-            <p>Let's Collaborate</p>
+            <Link
+              className="p-1"
+              href="mailto:your-email@example.com?subject=Collaboration&body=I%20would%20like%20to%20work%20with%20you.%20Could%20we%20schedule%20a%20call%3F"
+            >
+              Let's collaborate
+            </Link>
           </div>
         </div>
       </div>
