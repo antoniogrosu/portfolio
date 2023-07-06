@@ -10,14 +10,10 @@ export default function App({ Component, pageProps }) {
         <title>Antonio Grosu Developer</title>
         <meta
           name="description"
-          content="With 2 years of experience, I specialize in building captivating websites that engage users and drive results."
+          content="I specialize in building captivating websites that engage users and drive results."
         />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-        <link
-          rel="apple-touch-icon"
-          type="image/svg+xml"
-          href="/apple-icon.svg"
-        />
+        <link rel="apple-touch-icon" href="/apple-icon.svg" />
       </Head>
       <Navbar />
       <Component {...pageProps} />
