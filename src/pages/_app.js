@@ -16,7 +16,7 @@ export default function App({ Component, pageProps }) {
         <link
           rel="apple-touch-icon"
           type="image/svg+xml"
-          href="/path/to/apple-icon.svg"
+          href="/apple-icon.svg"
         />
       </Head>
       <Navbar />
