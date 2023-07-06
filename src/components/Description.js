@@ -8,15 +8,15 @@ function Description() {
           <Image
             src="/react.svg"
             alt="React.js Logo"
-            width={120}
-            height={120}
+            width={240}
+            height={240}
           />
-          <Image src="/next.svg" alt="Next.js Logo" width={120} height={120} />
+          <Image src="/next.svg" alt="Next.js Logo" width={240} height={240} />
           <Image
             src="/firebase.svg"
             alt="Firebase Logo"
-            width={120}
-            height={120}
+            width={240}
+            height={240}
           />
 
           <Image
