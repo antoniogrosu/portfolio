@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="flex items-center justify-between pt-24 pb-24">
       <div>
-        <h1 className="text-2xl font-semibold">
+        <h1 className="text-4xl font-semibold">
           Crafting Innovative Web Experiences
         </h1>
         <Image
