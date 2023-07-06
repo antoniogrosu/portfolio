@@ -46,8 +46,8 @@ function Project(props) {
                   <Image
                     src={item}
                     alt="logo"
-                    width={60}
-                    height={60}
+                    width={240}
+                    height={240}
                     priority
                   />
                 </div>

@@ -13,7 +13,7 @@ function Work() {
           text="Through the creation of a captivating blog for a psychologist, I implemented strategic solutions that had an impactuous effect on the business. By crafting compelling content, optimizing for search engines, and integrating user-friendly features, the blog became a powerful tool for attracting new clients, establishing expertise, and fostering meaningful connections. Growth was evident as the business expanded its reach and experienced increased engagement and conversions."
           url="https://teen-psychology.vercel.app"
           repo="https://github.com/antoniogrosu/blog"
-          logos={["/next.svg", "/auth.svg", "/firebase.svg", "/tailwind.svg"]}
+          logos={["/next.png", "/firebase.png", "/tailwind.png"]}
           features={[
             "Authentication",
             "Custom Posting System",
@@ -26,7 +26,7 @@ function Work() {
           text="Introducing my online dictionary project! With a sleek and user-friendly interface, it offers fast and accurate word meanings, synonyms, and related information. Say goodbye to tedious searches and welcome instant language assistance. It's a valuable addition to my portfolio, showcasing my ability to create useful and efficient applications."
           url="https://thevokabulary.vercel.app/"
           repo="https://github.com/antoniogrosu/thevokabulary"
-          logos={["/react.svg", "/router.svg", "/tailwind.svg"]}
+          logos={["/react.png", "/router.png", "/tailwind.png"]}
           features={[
             "Intuitive UI",
             "Routes on Single Page App",

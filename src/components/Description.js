@@ -6,24 +6,24 @@ function Description() {
         <h1 className="text-4xl">My technologies</h1>
         <div className="grid grid-cols-4 mt-8 gap-4 md:hidden mx-auto">
           <Image
-            src="/react.svg"
+            src="/react.png"
             alt="React.js Logo"
-            width={480}
-            height={480}
+            width={240}
+            height={240}
           />
           <Image src="/next.svg" alt="Next.js Logo" width={240} height={240} />
           <Image
-            src="/firebase.svg"
+            src="/firebase.png"
             alt="Firebase Logo"
-            width={480}
-            height={480}
+            width={240}
+            height={240}
           />
 
           <Image
-            src="/tailwind.svg"
+            src="/tailwind.png"
             alt="Tailwind Logo"
-            width={480}
-            height={480}
+            width={240}
+            height={240}
           />
         </div>
         <p className="mt-8">
@@ -41,21 +41,21 @@ function Description() {
           see my projects &#10549;{" "}
         </p>
       </div>
-      <div className="hidden md:grid grid-cols-2 gap-4 md:w-5/12">
-        <Image src="/react.svg" alt="React.js Logo" width={480} height={480} />
-        <Image src="/next.svg" alt="Next.js Logo" width={480} height={480} />
+      <div className="hidden md:grid grid-cols-2 gap-4 md:w-4/12">
+        <Image src="/react.svg" alt="React.js Logo" width={240} height={240} />
+        <Image src="/next.svg" alt="Next.js Logo" width={240} height={240} />
         <Image
-          src="/firebase.svg"
+          src="/firebase.png"
           alt="Firebase Logo"
-          width={480}
-          height={480}
+          width={240}
+          height={240}
         />
 
         <Image
-          src="/tailwind.svg"
+          src="/tailwind.png"
           alt="Tailwind Logo"
-          width={480}
-          height={480}
+          width={240}
+          height={240}
         />
       </div>
     </div>
