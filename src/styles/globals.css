@@ -1,7 +1,15 @@
-@tailwind base;
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;600&display=swap");
 @tailwind components;
+@tailwind base;
 @tailwind utilities;
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+.font {
+  font-family: "Red Hat Display";
+}
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
