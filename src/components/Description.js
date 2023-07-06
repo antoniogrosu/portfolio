@@ -11,7 +11,7 @@ function Description() {
             width={240}
             height={240}
           />
-          <Image src="/next.svg" alt="Next.js Logo" width={240} height={240} />
+          <Image src="/next.png" alt="Next.js Logo" width={240} height={240} />
           <Image
             src="/firebase.png"
             alt="Firebase Logo"
