@@ -11,6 +11,7 @@ body {
 }
 .font {
   font-family: "Red Hat Display";
+  color: #f9fafb;
 }
 .rotate-45 {
   transform: rotate(85deg);
