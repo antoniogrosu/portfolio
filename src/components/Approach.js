@@ -1,17 +1,17 @@
 import Card from "./Card-Approach";
 function Approach() {
   return (
-    <div className="py-24 font text-gray-50">
+    <div className="py-44 font text-gray-50">
       <h1 className="text-4xl">My approach towards projects</h1>
       <p className="mt-8">
         When it comes to boosting profits, I have you covered. I employ
         industry-leading practices such as:
       </p>
 
-      <div className="mt-14 grid md:grid-cols-2 gap-6 md:gap-8">
+      <div className="mt-14 grid lg:grid-cols-4 gap-6 md:gap-8">
         <Card
           short="SEO"
-          title="Search Engine Optimization"
+          title="S.E. Optimization"
           description="Search engine optimization (SEO) to enhance your online visibility, driving organic traffic to your site. "
         ></Card>
         <Card

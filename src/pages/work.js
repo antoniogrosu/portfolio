@@ -4,7 +4,7 @@ import Description from "@/components/Description";
 function Work() {
   return (
     <>
-      <div className="bg-gray-950 md:px-24 px-8 pt-8 font">
+      <div className="bg-gray-950  lg:px-48 md:px-36 px-8 pt-8 font">
         <Description />
 
         <Project

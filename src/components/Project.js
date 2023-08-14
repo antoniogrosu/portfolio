@@ -6,7 +6,7 @@ function Project(props) {
     return Math.random().toString(36).substr(2, 9);
   }
   return (
-    <div className="py-24">
+    <div className="lg:py-44 md:py-36 py-12">
       <h1 className="text-4xl font mb-14">{props.name}</h1>
       <div className="flex md:flex-row flex-col items-start justify-between font">
         <div className="w-full md:w-4/12">

@@ -1,7 +1,7 @@
 import Link from "next/link";
 function Collab() {
   return (
-    <div className="px-8 py-24 md:p-24 font bg-gray-800">
+    <div className="lg:py-44 md:py-36 py-24 lg:px-48 md:px-36 px-8 font bg-gray-800">
       <div className="flex flex-col md:flex-row items-top justify-between">
         <h1 className="text-4xl">
           Let's embark on this{" "}

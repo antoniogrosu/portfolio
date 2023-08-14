@@ -9,8 +9,8 @@ function Hero() {
           className="md:hidden my-12"
           priority
           src="/hero-img.svg"
-          width={400}
-          height={400}
+          width={800}
+          height={800}
           alt="Hero Image"
         />
         <p className="mt-8 w-full md:w-8/12">
@@ -52,8 +52,8 @@ function Hero() {
         className="hidden md:block"
         priority
         src="/hero-img.svg"
-        width={400}
-        height={400}
+        width={600}
+        height={600}
         alt="Hero Image"
       />
     </div>

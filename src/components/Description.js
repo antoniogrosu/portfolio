@@ -1,29 +1,29 @@
 import Image from "next/image";
 function Description() {
   return (
-    <div className="py-24 font text-gray-50 md:flex-row flex-col flex items-center justify-between">
+    <div className="lg:py-44 md:py-36 py-24 font text-gray-50 md:flex-row flex-col flex items-center justify-between">
       <div className="md:w-5/12">
         <h1 className="text-4xl">My technologies</h1>
         <div className="grid grid-cols-4 mt-8 gap-4 md:hidden mx-auto">
           <Image
             src="/react.png"
             alt="React.js Logo"
-            width={240}
-            height={240}
+            width={120}
+            height={120}
           />
-          <Image src="/next.png" alt="Next.js Logo" width={240} height={240} />
+          <Image src="/next.png" alt="Next.js Logo" width={120} height={120} />
           <Image
             src="/firebase.png"
             alt="Firebase Logo"
-            width={240}
-            height={240}
+            width={120}
+            height={120}
           />
 
           <Image
             src="/tailwind.png"
             alt="Tailwind Logo"
-            width={240}
-            height={240}
+            width={120}
+            height={120}
           />
         </div>
         <p className="mt-8">
@@ -41,21 +41,21 @@ function Description() {
           see my projects &#10549;{" "}
         </p>
       </div>
-      <div className="hidden md:grid grid-cols-2 gap-4 md:w-4/12">
-        <Image src="/react.svg" alt="React.js Logo" width={240} height={240} />
-        <Image src="/next.svg" alt="Next.js Logo" width={240} height={240} />
+      <div className="hidden md:grid grid-cols-2 gap-4 md:w-3/12">
+        <Image src="/react.svg" alt="React.js Logo" width={160} height={160} />
+        <Image src="/next.svg" alt="Next.js Logo" width={160} height={160} />
         <Image
           src="/firebase.png"
           alt="Firebase Logo"
-          width={240}
-          height={240}
+          width={160}
+          height={160}
         />
 
         <Image
           src="/tailwind.png"
           alt="Tailwind Logo"
-          width={240}
-          height={240}
+          width={160}
+          height={160}
         />
       </div>
     </div>
