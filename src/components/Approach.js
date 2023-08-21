@@ -1,9 +1,9 @@
 import Card from "./Card-Approach";
 function Approach() {
   return (
-    <div className="py-44 font text-gray-50">
-      <h1 className="text-4xl">My approach towards projects</h1>
-      <p className="mt-8">
+    <div className="lg:py-44 md:py-36 py-24 font text-gray-50">
+      <h1 className="md:text-6xl text-4xl">My approach towards projects</h1>
+      <p className="mt-16">
         When it comes to boosting profits, I have you covered. I employ
         industry-leading practices such as:
       </p>
